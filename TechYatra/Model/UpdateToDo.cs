@@ -19,7 +19,7 @@ namespace TechYatra.Model
     {
         public int Code { get; set; }
 
-        public String StatusMessage { get; set; }
+        public required String StatusMessage { get; set; }
     }
 
 }
