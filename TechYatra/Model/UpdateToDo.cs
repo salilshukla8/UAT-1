@@ -13,5 +13,12 @@
         public DateTime CreatedAt { get; set; }
     }
 
+    public class ErrorResponse
+    {
+        public int Code { get; set; }
+
+        public String StatusMessage { get; set; }
+    }
+
 
 }
