@@ -1,4 +1,6 @@
-﻿namespace TechYatra.Model
+﻿using System.Net;
+
+namespace TechYatra.Model
 {
     public class UpdateToDo
     {
@@ -18,6 +20,12 @@
         public int Code { get; set; }
 
         public String StatusMessage { get; set; }
+    }
+
+    public class ErrorModel
+    {
+        public HttpStatusCode Code { get; set; }
+        public string StatusMessage { get; set; }
     }
 
 
