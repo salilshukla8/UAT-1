@@ -22,11 +22,4 @@ namespace TechYatra.Model
         public String StatusMessage { get; set; }
     }
 
-    public class ErrorModel
-    {
-        public HttpStatusCode Code { get; set; }
-        public string StatusMessage { get; set; }
-    }
-
-
 }
