@@ -12,7 +12,6 @@ namespace TechYatra.Model
 
         public string Status { get; set; }
 
-        public DateTime CreatedAt { get; set; }
     }
 
     public class ErrorResponse
